@@ -1,20 +1,20 @@
 const Header = ({navLinks, books}) => {
-    return (
-    <header>
-      <div>
-        <h2>Библивотека</h2>
-        <nav>
-          {navLinks.map ((navLink) => 
-            <a href={navLink.href}>{navLink.title}</a>
-          )}
-        </nav>
-      </div>
-
+  return (
+  <header>
     <div>
-        <h1>У нас на сайте {books.length} книг</h1>
+      <h2>Библивотека</h2>
+      <nav>
+        {navLinks.map ((navLink) => 
+          <a href={navLink.href}>{navLink.title}</a>
+        )}
+      </nav>
     </div>
-    </header>
-    )
+
+  <div>
+      <h1>У нас на сайте {books.length} книг</h1>
+  </div>
+  </header>
+  )
 }
 
 export default Header;
