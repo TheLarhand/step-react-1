@@ -1,0 +1,13 @@
+
+.header_top{
+    border: 1px solid black;
+}
+.navigation {
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 1200px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
